@@ -107,7 +107,7 @@ USER renderer
 
 # Configure stylesheet
 WORKDIR /home/renderer/src
-RUN git clone https://github.com/takachan-mirai/openstreetmap-carto.git
+RUN git clone https://github.com/b4h0-c4t/openstreetmap-carto.git
 WORKDIR /home/renderer/src/openstreetmap-carto
 USER root
 RUN npm install -g carto
